@@ -36,8 +36,6 @@
          backlight values for lux levels between these control points.
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>1</item>
-        <item>2</item>
         <item>4</item>
         <item>12</item>
         <item>20</item>
@@ -96,8 +94,6 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>2.543</item>
-        <item>3.266</item>
         <item>4.8394</item>
         <item>15.2619</item>
         <item>33</item>
@@ -152,8 +148,6 @@
          brightness modes but only the maximum brightness value obtainable in a sustainable manner.
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-        <item>2.543</item>
-        <item>3.266</item>
         <item>4.0824</item>
         <item>5.0958</item>
         <item>13.278</item>
@@ -225,8 +219,6 @@
          values in the config_screenBrightnessNits array.
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
-        <item>1</item>
-        <item>2</item>
         <item>3</item>
         <item>4</item>
         <item>8</item>
@@ -355,7 +347,7 @@
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">1</integer>
+    <integer name="config_screenBrightnessSettingMinimum">3</integer>
 
     <!-- Maximum screen brightness allowed by the power manager.
          -2 is invalid so setting will resort to int value specified above.
