@@ -39,6 +39,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0-impl:64 \
+    android.hardware.vibrator@1.0-service
+
 # Wifi Overlay
 PRODUCT_PACKAGES += \
     OnePlus7ProWifiOverlay

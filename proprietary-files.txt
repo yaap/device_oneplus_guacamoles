@@ -203,7 +203,4 @@ vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 
 # Vibrator HAL - from OnePlus7Pro-user-10-QKQ1.190716.003-2101212056-release-keys
-vendor/etc/init/android.hardware.vibrator@1.0-service.rc|85b0f432b059c8d57e4a1822fa815cb5bf5f42cb
-vendor/bin/hw/android.hardware.vibrator@1.0-service|67c69d3a9e16a66535bd0c7aef172aeb9653bb43
-vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so|61859bb0caf6b44dc25053f5094ffa52b64a2ab6
 vendor/lib64/hw/vibrator.default.so|f4b09524bbd1b4c7a91191d5793ae000e3cde0af
