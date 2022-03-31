@@ -6,7 +6,9 @@
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
 BOARD_VENDOR := oneplus
-DEVICE_PATH := device/oneplus/guacamole
+DEVICE_PATH := device/oneplus/guacamoles
+
+TARGET_VENDOR_PROP += $(VENDOR_PATH)/vendor.prop
 
 # Display
 TARGET_SCREEN_DENSITY := 560
@@ -24,6 +26,9 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 1073741824
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
+# SELinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Sensors
 SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_X := 1010

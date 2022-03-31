@@ -4,7 +4,7 @@
     "target_path" : "device/oneplus/sm8150-common"
   },
   {
-    "repository"  : "vendor_oneplus_guacamole",
-    "target_path" : "vendor/oneplus/guacamole"
+    "repository"  : "vendor_oneplus_guacamoles",
+    "target_path" : "vendor/oneplus/guacamoles"
   }
 ]

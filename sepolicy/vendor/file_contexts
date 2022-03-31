@@ -1,0 +1,8 @@
+# Binaries
+/(vendor|system/vendor)/bin/oemnvbkdaemon         u:object_r:vendor_mdm_helper_exec:s0
+
+# Block devices
+/dev/block/platform/soc/1d84000\.ufshc/by-name/mdm1oemnvbktmp     u:object_r:vendor_efs_boot_dev:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/mdm_oem_dycnvbk    u:object_r:vendor_efs_boot_dev:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/mdm_oem_stanvbk    u:object_r:vendor_efs_boot_dev:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/mdmddr             u:object_r:vendor_efs_boot_dev:s0

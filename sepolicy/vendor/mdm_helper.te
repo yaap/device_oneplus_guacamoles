@@ -1,0 +1,10 @@
+type vendor_mdm_helper_tmpfs;
+type_transition vendor_mdm_helper tmpfs:file vendor_mdm_helper_tmpfs;
+
+allow vendor_mdm_helper vendor_efs_boot_dev:blk_file rw_file_perms;
+allow vendor_mdm_helper vendor_mdm_helper_tmpfs:file { read write getattr map };
+allow vendor_mdm_helper oem_block_device:blk_file rw_file_perms;
+allow vendor_mdm_helper tmpfs:dir { getattr search };
+allow vendor_mdm_helper sysfs_project_info:dir search;
+r_dir_file(vendor_mdm_helper, sysfs_project_info)
+allow vendor_mdm_helper self:capability { sys_admin };

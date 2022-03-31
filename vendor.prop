@@ -1,0 +1,6 @@
+persist.vendor.ssr.restart_level=ALL_ENABLE
+persist.vendor.radio.5g=1
+persist.vendor.radio.5g_mode_pref=1
+persist.vendor.radio.5g_mode_pref_0=1
+persist.vendor.radio.5g_mode_pref_1=1
+#ro.telephony.default_network=33
