@@ -14,6 +14,9 @@ $(call inherit-product, device/oneplus/guacamoles/device.mk)
 # Inherit some common YAAP stuff.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
+# Inherit Google Carrier Settings (for out of box 5g support).
+$(call inherit-product, vendor/yaap-prebuilts/carriersettings.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := yaap_guacamoles
 PRODUCT_DEVICE := guacamoles
