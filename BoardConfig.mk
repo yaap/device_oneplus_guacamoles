@@ -8,7 +8,7 @@
 BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/guacamoles
 
-TARGET_VENDOR_PROP += $(VENDOR_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Display
 TARGET_SCREEN_DENSITY := 560
