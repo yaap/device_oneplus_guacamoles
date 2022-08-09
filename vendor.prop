@@ -3,4 +3,5 @@ persist.vendor.radio.5g=3
 persist.vendor.radio.5g_mode_pref=1
 persist.vendor.radio.5g_mode_pref_0=1
 persist.vendor.radio.5g_mode_pref_1=1
-#ro.telephony.default_network=33
+ro.telephony.default_network=33
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
