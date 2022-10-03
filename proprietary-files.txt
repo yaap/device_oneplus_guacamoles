@@ -216,10 +216,3 @@ vendor/bin/ks|3d26cb693f66345a15339755249c6a8519dab9c7
 vendor/bin/mdm_helper|ae461bfcf72ba66bb242ac27cb00c9bca98d4cb4
 vendor/bin/mdm_helper_proxy|4ca61671f94d204c2599655fa82a268fb10ed9d6
 vendor/bin/oemnvbkdaemon|1fa81b6b60e4b3eb718eadfcf34368f523bf483f
-
-# SubSystem Restart (from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0)
-vendor/lib/libsubsystem_control.so|99a79e1e456a1d4138e19a555731f57f477e0300
-vendor/lib64/libsubsystem_control.so|133b04beab74a8c56510831fdbd40d19abfd75dc
-vendor/bin/ssr_diag|b1a45e7d5e887def7e106bfa6e4ab0c1af7faf86
-vendor/bin/ssr_setup|fdbcddb14a592fc2f2a11649ef443c34933fbc81
-vendor/bin/subsystem_ramdump|6fd57c08e514f8bf41212b0e9552fc44ae817b2c
