@@ -80,6 +80,7 @@
         <item>208271</item>
         <item>223180</item>
         <item>255108</item>
+        <item>380000</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
@@ -139,6 +140,7 @@
         <item>940</item>
         <item>960</item>
         <item>1000</item>
+        <item>1100</item>
     </array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
