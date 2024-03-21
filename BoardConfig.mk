@@ -13,6 +13,12 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Display
 TARGET_SCREEN_DENSITY := 560
 
+# A/B
+AB_OTA_PARTITIONS += \
+    odm \
+    product \
+    system_ext
+
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1d84000.ufshc
 TARGET_KERNEL_ADDITIONAL_FLAGS += \
