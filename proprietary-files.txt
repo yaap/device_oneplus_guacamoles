@@ -13,8 +13,8 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 
 # Audio
-vendor/lib/hw/audio.primary.msmnile.so
-vendor/lib64/hw/audio.primary.msmnile.so
+vendor/lib/hw/audio.primary.msmnile.so;DISABLE_CHECKELF
+vendor/lib64/hw/audio.primary.msmnile.so;DISABLE_CHECKELF
 
 # Camera
 vendor/etc/camera/ashdr/iso617_4608x3456.ncf
@@ -119,7 +119,7 @@ vendor/lib64/hw/goodix.fod.msmnile.so
 vendor/lib64/fp_hal_extension.so
 vendor/lib64/libarm_proxy_skel.so
 vendor/lib64/libgf_ud_hal.so
-vendor/lib64/libhvx_proxy_stub.so
+vendor/lib64/libhvx_proxy_stub.so;DISABLE_CHECKELF
 
 # Sensors (pinned from 10.0.0.15.GM27BA)
 vendor/etc/sensors/config/ak991x_0.json
@@ -196,7 +196,6 @@ vendor/etc/sensors/config/tcs3701.json
 vendor/etc/sensors/config/stk2232_0.json|e7858d4c5e14cb5838b493a868a30ab94afb37ab
 vendor/etc/sensors/config/tmd3702.json|f39b1b2558836d1e7b478acf9d25c8fd977e17d5
 vendor/etc/sensors/sns_reg_config|94174ecd4c73f1ff78ec37e76ebf0045b4c69cd6
-vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 
 # Vibrator Firmware
@@ -210,7 +209,7 @@ vendor/firmware/aw8697_haptic_174.bin
 vendor/lib/liboemnvbk_img_helper.so|c99261a01879acfa5c79fe1cb052ba03265b08a3
 vendor/lib64/libmdmimgload.so|131e8e7b09e4691a7cfde8cf6bf26ecdceced21e
 vendor/lib64/liboemnvbk_img_helper.so|3bc9b321d4e159bc19b8c0ce1f09304ba3d4b520
-vendor/lib64/libmdmdetect.so|de2a1c7a920b212379a5e0104c4e79fc761b71ce
+-vendor/lib64/libmdmdetect.so;MODULE_SUFFIX=_vendor|de2a1c7a920b212379a5e0104c4e79fc761b71ce
 vendor/bin/init.mdm.sh|b8778c5ee154871ccbb390204ddd3f8af4cb4aa2
 vendor/bin/ks|3d26cb693f66345a15339755249c6a8519dab9c7
 vendor/bin/mdm_helper|ae461bfcf72ba66bb242ac27cb00c9bca98d4cb4
